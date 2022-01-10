@@ -1,2 +1,4 @@
 # jdw-leetcode-challenges
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+
+This repository holds my Leetcode challenge solutions. Challenges ae completed in either JavaScript or Python. 
