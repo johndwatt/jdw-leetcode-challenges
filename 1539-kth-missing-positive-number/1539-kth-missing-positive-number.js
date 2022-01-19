@@ -14,6 +14,5 @@ var findKthPositive = function(arr, k) {
         if (count in map === false ) result++;
         if (result === k) return count;
         count++;
-        
     }
 };
