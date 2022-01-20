@@ -15,7 +15,7 @@
 //     return false;
 // };
 
-//efficient 
+// more efficient 
 var rotateString = function(s, goal) {
     if (s.length !== goal.length) return false;
     let str = s+s;
