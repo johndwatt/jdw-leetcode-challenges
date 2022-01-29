@@ -5,11 +5,8 @@
 var countElements = function(nums) {
     let result = 0;
     nums.sort((a,b) => b - a);
-    let map = {}
-    map.largest = nums[0];
-    map.smallest = nums[nums.length - 1]
     for (let i = 1; i < nums.length - 1; i++) {
-        if (nums[i] < map.largest && nums[i] > map.smallest){
+        if (nums[i] < nums[0] && nums[i] > nums[nums.length - 1]){
             result++;
         }
     }
