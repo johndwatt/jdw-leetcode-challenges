@@ -4,6 +4,7 @@
  * @return {boolean}
  */
 
+// poor use of space
 var isPrefixString = function(s, words) {
     if (s.length < words[0].length) return false;
     let word = 0;
