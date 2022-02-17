@@ -18,7 +18,7 @@
 //     return result;
 // };
 
-// more efficient
+// use of sets
 var intersection = function(nums1, nums2) {
     const compareSets = function(smallSet, largeSet){
         let result = [];
