@@ -28,13 +28,9 @@ var modifyString = function(s) {
     if (s.includes('?') === false) return s;
     for (let i = 0; i < s.length; i++){
         if (s[i] === "?") {
-            if (s[i+1] !== "a" && s[i-1] !== "a") {
-                s = s.slice(0, i) + "a" + s.slice(i+1);
-            } else if (s[i+1] !== "b" && s[i-1] !== "b"){
-                s = s.slice(0, i) + "b" + s.slice(i+1);
-            } else {
-                s = s.slice(0, i) + "c" + s.slice(i+1);
-            }
+            if (s[i+1] !== "a" && s[i-1] !== "a") s = s.slice(0, i) + "a" + s.slice(i+1);
+            else if (s[i+1] !== "b" && s[i-1] !== "b") s = s.slice(0, i) + "b" + s.slice(i+1);
+            else s = s.slice(0, i) + "c" + s.slice(i+1);
         }
     }
     return s;
