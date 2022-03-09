@@ -23,7 +23,7 @@
 //     return s;
 // };
 
-// more efficient
+// more efficient and cleaner code
 var modifyString = function(s) {
     if (s.includes('?') === false) return s;
     for (let i = 0; i < s.length; i++){
