@@ -10,7 +10,7 @@
 
 <p>The judge will test your solution with the following code:</p>
 
-<pre style="position: relative;">int[] nums = [...]; // Input array
+<pre>int[] nums = [...]; // Input array
 int[] expectedNums = [...]; // The expected answer with correct length
 
 int k = removeDuplicates(nums); // Calls your implementation
@@ -19,32 +19,32 @@ assert k == expectedNums.length;
 for (int i = 0; i &lt; k; i++) {
     assert nums[i] == expectedNums[i];
 }
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>If all assertions pass, then your solution will be <strong>accepted</strong>.</p>
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [1,1,2]
+<pre><strong>Input:</strong> nums = [1,1,2]
 <strong>Output:</strong> 2, nums = [1,2,_]
 <strong>Explanation:</strong> Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [0,0,1,1,1,2,2,3,3,4]
+<pre><strong>Input:</strong> nums = [0,0,1,1,1,2,2,3,3,4]
 <strong>Output:</strong> 5, nums = [0,1,2,3,4,_,_,_,_,_]
 <strong>Explanation:</strong> Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>0 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
 	<li><code>-100 &lt;= nums[i] &lt;= 100</code></li>
 	<li><code>nums</code> is sorted in <strong>non-decreasing</strong> order.</li>
 </ul>
