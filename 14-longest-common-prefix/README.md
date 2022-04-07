@@ -5,16 +5,16 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> strs = ["flower","flow","flight"]
+<pre><strong>Input:</strong> strs = ["flower","flow","flight"]
 <strong>Output:</strong> "fl"
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> strs = ["dog","racecar","car"]
+<pre><strong>Input:</strong> strs = ["dog","racecar","car"]
 <strong>Output:</strong> ""
 <strong>Explanation:</strong> There is no common prefix among the input strings.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
