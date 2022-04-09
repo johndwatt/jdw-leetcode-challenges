@@ -9,26 +9,26 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [2,3,-1,<u>8</u>,4]
+<pre style="position: relative;"><strong>Input:</strong> nums = [2,3,-1,<u>8</u>,4]
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> The sum of the numbers before index 3 is: 2 + 3 + -1 = 4
 The sum of the numbers after index 3 is: 4 = 4
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,-1,<u>4</u>]
+<pre style="position: relative;"><strong>Input:</strong> nums = [1,-1,<u>4</u>]
 <strong>Output:</strong> 2
 <strong>Explanation:</strong> The sum of the numbers before index 2 is: 1 + -1 = 0
 The sum of the numbers after index 2 is: 0
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong>Example 3:</strong></p>
 
-<pre><strong>Input:</strong> nums = [2,5]
+<pre style="position: relative;"><strong>Input:</strong> nums = [2,5]
 <strong>Output:</strong> -1
 <strong>Explanation:</strong> There is no valid middleIndex.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
