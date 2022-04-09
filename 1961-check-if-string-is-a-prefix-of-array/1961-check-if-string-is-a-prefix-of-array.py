@@ -3,7 +3,6 @@ class Solution:
         answer = ""
         for i in words:
             answer += i
-            print(answer)
             if answer == s:
                 return True
             if len(answer) > len(s):
