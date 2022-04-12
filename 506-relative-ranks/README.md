@@ -14,17 +14,17 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> score = [5,4,3,2,1]
+<pre><strong>Input:</strong> score = [5,4,3,2,1]
 <strong>Output:</strong> ["Gold Medal","Silver Medal","Bronze Medal","4","5"]
-<strong>Explanation:</strong> The placements are [1<sup>st</sup>, 2<sup>nd</sup>, 3<sup>rd</sup>, 4<sup>th</sup>, 5<sup>th</sup>].<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+<strong>Explanation:</strong> The placements are [1<sup>st</sup>, 2<sup>nd</sup>, 3<sup>rd</sup>, 4<sup>th</sup>, 5<sup>th</sup>].</pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> score = [10,3,8,9,4]
+<pre><strong>Input:</strong> score = [10,3,8,9,4]
 <strong>Output:</strong> ["Gold Medal","5","Bronze Medal","Silver Medal","4"]
 <strong>Explanation:</strong> The placements are [1<sup>st</sup>, 5<sup>th</sup>, 3<sup>rd</sup>, 2<sup>nd</sup>, 4<sup>th</sup>].
 
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
