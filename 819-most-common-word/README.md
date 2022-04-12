@@ -5,7 +5,7 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre><strong>Input:</strong> paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.", banned = ["hit"]
+<pre style="position: relative;"><strong>Input:</strong> paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.", banned = ["hit"]
 <strong>Output:</strong> "ball"
 <strong>Explanation:</strong> 
 "hit" occurs 3 times, but it is a banned word.
@@ -13,13 +13,13 @@
 Note that words in the paragraph are not case sensitive,
 that punctuation is ignored (even if adjacent to words, such as "ball,"), 
 and that "hit" isn't the answer even though it occurs more because it is banned.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre><strong>Input:</strong> paragraph = "a.", banned = []
+<pre style="position: relative;"><strong>Input:</strong> paragraph = "a.", banned = []
 <strong>Output:</strong> "a"
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
