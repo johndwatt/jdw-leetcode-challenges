@@ -11,5 +11,5 @@ class Solution:
         for i in range(int(len(x_str) / 2)):
             if x_str[i] != x_str[j]: return False
             j -= 1
-        # return true if loop does not involidate palindrome
+        # return true if loop does not invalidate palindrome
         return True
