@@ -14,12 +14,17 @@
 //     return false;
 // };
 
-// more efficient?
+// more efficient?  time: yes, space: no
+// var containsDuplicate = function(nums) {
+//     const set = [...new Set(nums)];
+//     if (set.length === nums.length) {
+//         return false;
+//     } else {
+//         return true;
+//     }
+// };
+
+// one liner
 var containsDuplicate = function(nums) {
-    const set = [...new Set(nums)];
-    if (set.length === nums.length) {
-        return false;
-    } else {
-        return true;
-    }
+    return new Set(nums).size !== nums.length
 };
