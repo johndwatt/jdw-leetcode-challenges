@@ -24,7 +24,7 @@
 //     }
 // };
 
-// one liner, more space efficient, but less time efficient?
+// one liner
 var containsDuplicate = function(nums) {
     return new Set(nums).size !== nums.length
 };
