@@ -47,5 +47,5 @@ var twoSum = function (nums, target) {
         }
     }
 };
-
+//time complexity: linear, space complexity: linear
 
