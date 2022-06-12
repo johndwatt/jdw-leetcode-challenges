@@ -32,11 +32,11 @@
 // Without Division - calculate prefix values on first loop, then multiply those values by the postfix values on second loop
 // Time: O(n), Space: O(1) (output array doesn't count)
 var productExceptSelf = function(nums) {
-    let answer = [];
+    let answer = new Array(nums.length);
     let prefix = 1;
     let postfix = 1;
     for (let i = 0; i < nums.length; i++) {
-        answer.push(prefix);
+        answer[i] = prefix;
         prefix *= nums[i];
     }
     for (let i = nums.length - 1; i >= 0; i--) {
