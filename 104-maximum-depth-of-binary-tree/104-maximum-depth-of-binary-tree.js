@@ -12,8 +12,28 @@
  */
 
 // Recursive DFS O(n), 
-var maxDepth = function(root) {
-    if (!root) return null;
+// var maxDepth = function(root) {
+//     if (!root) return null;
     
-    return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+//     return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+// };
+
+// iterative DFS
+var maxDepth = function(root) {
+    if (!root) return 0
+    
+    let stack = [[root, 1]];
+    let level = 0;
+
+    while (stack.length) {
+        let node = stack.pop();
+        
+        if (node !== null) {
+            level = Math.max(level, node[1]);
+            if (node[0].left !== null) stack.push([node[0].left, node[1] + 1]);
+            if (node[0].right !== null) stack.push([node[0].right, node[1] + 1]);
+        }
+    }
+    
+    return level
 };
